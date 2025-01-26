@@ -25,10 +25,12 @@ WiFi Credential Extractor: Retrieves saved WiFi profiles and password and the IP
 3. To Exit terminate via task manager or `Ctrl + C` 
 
 # Functionality
-** Keylogger**
+**Keylogger**
 - The keylogger runs in the background and logs all keyboard activity to logs.txt.
 - Pressed keys are buffered and written to the file every 5 seconds so that special keys and inputs can be accounted for.
 - Handles backspace, space, Enter, Shift, and Caps Lock inputs correctly.
+
+  
 **WiFi Credential Extractor**
 - Uses netsh commands to retrieve saved WiFi profiles and their passwords.
 - Logs extracted WiFi credentials and the IPv6 address to wifi.txt.
